@@ -32,7 +32,7 @@ const NavBar = () => {
         <GoogleLogin
           onSuccess={(credentialResponse) => {
             createOrGetUser(credentialResponse, addUser);
-            window.location.reload(false);
+            // window.location.reload(false);
           }}
           onError={() => {
             console.log("Login Failed");
