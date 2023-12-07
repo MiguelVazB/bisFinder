@@ -30,7 +30,13 @@ async function handleClick(bisId, user, likes, updateUser) {
       updateUser(response.data);
     }
   } catch (error) {
-    console.error(error);
+    let likes = [bisId];
+    const response = await axios.put("https://bisfinderserver.onrender.com/user/likes", {
+      user,
+      likes,
+    });
+
+    updateUser(response.data);
   }
 }
 
