@@ -6,7 +6,6 @@ import axios from "axios";
 
 async function handleClick(bisId, user, likes, updateUser) {
   try {
-    if (likes){
     if (!likes.includes(bisId)) {
       likes.push(bisId);
 
@@ -28,14 +27,6 @@ async function handleClick(bisId, user, likes, updateUser) {
           likes,
         }
       );
-      updateUser(response.data);
-    }
-    }else{
-        let likes = [bisId];
-      const response = await axios.put("https://bisfinderserver.onrender.com/user/likes", {
-        user,
-        likes,
-      });
       updateUser(response.data);
     }
   } catch (error) {
