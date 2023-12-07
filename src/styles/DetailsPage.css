@@ -1,0 +1,93 @@
+.detailsPage{
+    padding: 70px 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.reviewsContainer{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.businessName{
+    font-size: 4vw;
+    margin-bottom: 0;
+    text-decoration: underline #e06f5d;
+}
+
+.businessInfoContainer{
+    font-size: x-large;
+}
+
+.businessInfoContainer p, .businessInfoContainer ul{
+    margin: 2px;
+}
+
+.reviewBox{
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: space-around;
+    background-color: #5dd4cc;
+    color: #1b343f;
+}
+
+.reviewInfo{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    padding: 5px;
+}
+
+.userReviewInfo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.imageContainer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.nameAndRating{
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.userRating{
+    font-size: medium;
+}
+
+.reviewAndDate{
+    padding: 10px;
+}
+
+.reviewTimeCreated{
+    font-size: small;
+    text-align: end;
+    font-weight: bold;
+}
+
+.businessImageContainer{
+    margin-top: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.businessImageContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.businessNameAndLikeBtn{
+    display: flex;
+    align-items: end;
+}

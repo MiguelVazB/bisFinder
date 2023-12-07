@@ -1,0 +1,43 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(28, 40, 48, 95%) ;
+    position: absolute;
+    z-index: 1;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 1% 2%;
+    color: #59c3a2;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.loggedInContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.loggedInContainer img{
+    border-radius: 50%;
+    width: 30%;
+    height: auto;
+}
+
+.loggedInContainer button{
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: black;
+    background-color: #59c3a2;
+    font-weight: bold;
+    border: none;
+}

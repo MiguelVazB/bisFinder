@@ -1,0 +1,74 @@
+.businessPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.cityInfo{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 80px 50px;
+    height: 70%;
+    font-size: xx-large;
+}
+
+.cityInfo h1{
+    margin: 10px;
+    color: #5dd4cc;
+}
+
+.cityInfo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.businessesContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 80px 15px 20px 0px;
+}
+
+.businessBox{
+    color: #e06f5d;
+    background-color: rgba(94, 212, 204, 0.1);
+    margin: 5px;
+    height: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.businessBox:hover{
+    scale: 1.01;
+}
+
+.businessInfo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+}
+
+.businessInfo p{
+    margin-left: 10px;
+    inline-size: 1vw;
+    cursor: pointer;
+    flex: 1;
+}
+
+.businessInfo img{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
